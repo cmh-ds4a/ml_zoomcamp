@@ -8,14 +8,14 @@ The dataset is from the local multiple listing service for homes sold in Durham,
 
 ## How to Run Application
 
-Clone the directory into your work space.  UPdate the home dictionary in the predict-test.py file and issue
+Clone the directory into your work space.  Update the 'home' dictionary in the predict-test.py file and issue
 
 ```
 python predict-test.py
 ```
-           or
+
            
-Build and run the application using the following commands:
+Or, build and run the application using the following commands:
 
 ```
 docker build -t midterm-project .
