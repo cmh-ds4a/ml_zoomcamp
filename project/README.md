@@ -4,7 +4,7 @@ This project is about predicting residential home prices in Durham, NC.
 
 ## Dataset
 
-The dataset is data from the local multiple listing service for homes sold in Durham, NC from January 1, 2021 thru October 31, 2021.
+The dataset is from the local multiple listing service for homes sold in Durham, NC from January 1, 2021 thru October 31, 2021.
 
 ## How to Run Application
 
