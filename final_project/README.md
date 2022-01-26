@@ -54,7 +54,7 @@ docker build -t red-wine-predictions .
 docker run -it --rm -p 8080:8080 red-wine-predictions 
 ```
 
-Then, Use test.py as input to the service
+  Then, Use test.py as input to the service
 
 - Run locally
 ```
@@ -67,9 +67,9 @@ Then, Use test.py as input to the service
 Start service:  python predict_wine.py
 In jupyter notebook, issue following statements
 ```
-- import requests
-- url = 'http://localhost:9696/predict'
-- wine = {"alcohol": 20.5, "sulphates": 0.74, "citric acid": 0.66, "volatile acidity": 0.04}
-- requests.post(url, json=wine).json()
+  import requests
+  url = 'http://localhost:9696/predict'
+  wine = {"alcohol": 20.5, "sulphates": 0.74, "citric acid": 0.66, "volatile acidity": 0.04}
+  requests.post(url, json=wine).json()
 ```
 ```
