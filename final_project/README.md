@@ -59,22 +59,17 @@ Then, Use test.py as input to the service
 - Run locally
 ```
  python predict_app.py
- curl http://localhost:9696/predict
+ curl http://localhost:9696/predict (in either browser or separate command window)
 ```
 
 - Web Service
 ```
-python predict_wine.py
-Jupyter Statements
+Start service:  python predict_wine.py
+In jupyter notebook, issue following statements
 ```
-import requests
-url = 'http://localhost:9696/predict'
-wine = {
-    "alcohol": 20.5,
-    "sulphates": 0.74,
-    "citric acid": 0.66,
-    "volatile acidity": 0.04
-}
-requests.post(url, json=wine).json()
+- import requests
+- url = 'http://localhost:9696/predict'
+- wine = {"alcohol": 20.5, "sulphates": 0.74, "citric acid": 0.66, "volatile acidity": 0.04}
+- requests.post(url, json=wine).json()
 ```
 ```
