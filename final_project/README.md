@@ -66,11 +66,11 @@ docker run -it --rm -p 8080:8080 red-wine-predictions
 ```
 Start service:  python predict_wine.py
 In jupyter notebook, issue following statements
-```
+
 <ol>
 <li>import requests</li>
 <li>url = 'http://localhost:9696/predict'</li>
 <li>wine = {"alcohol": 20.5, "sulphates": 0.74, "citric acid": 0.66, "volatile acidity": 0.04}</li>
 <li>requests.post(url, json=wine).json()</li>
-```
+</ol>
 ```
